@@ -31,8 +31,8 @@ The script produces:
   - Numerical errors (when analytical solutions exist)
 
 - **Plots:**
-  - Lane-Emden solutions → `lane_emden.pdf`
-  - Dimensionless density profiles → `dimensionless_density_profiles.pdf`
+  - Lane-Emden solutions → `Lane_Emden_Solutions.pdf`
+  - Dimensionless density profiles → `Dimensionless_density_profiles.pdf`
 
 - **Chandrasekhar mass estimate**:
   - Expressed in SI units and solar masses
