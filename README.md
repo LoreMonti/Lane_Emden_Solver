@@ -68,8 +68,7 @@ For $n = 3$, the polytropic model describes a **relativistic degenerate electron
 In this regime, the polytropic constant $K$ is not arbitrary, but is derived from the physics of a relativistic Fermi gas. In this project, we use:
 
 $$
-K = \frac{3^{1/3} \pi^{2/3}}{2^{4/3} \cdot 4}
-\, \frac{\hbar c}{m_p^{4/3}}
+K = \frac{3^{1/3} \pi^{2/3}}{2^{4/3} \cdot 4} \frac{\hbar c}{m_p^{4/3}}
 $$
 
 where:
