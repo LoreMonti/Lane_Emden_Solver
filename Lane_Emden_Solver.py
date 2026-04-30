@@ -411,7 +411,7 @@ def plot_dimensionless_density_profiles(solutions):
     for solution in solutions:
         n = solution["n"]
 
-        if n not in [0.0, 1.0, 3/2, 3.0]:
+        if n not in [0.0, 1.0, 3./2., 3.0]:
             continue
 
         if solution["xi_zero"] is None:
@@ -448,7 +448,7 @@ def main():
     Run the Lane-Emden solver for selected polytropic indices.
     """
 
-    n_values = [0.0, 1.0, 3/2, 3.0, 5.0]
+    n_values = [0.0, 1.0, 3./2., 3.0, 5.0]
     xi_max = 10.0
     h = 1.e-4
 
