@@ -4,6 +4,18 @@ This project numerically solves the Lane-Emden equation for selected polytropic 
 
 It computes dimensionless stellar structure quantities, validates numerical results against analytical solutions, produces diagnostic plots, and estimates the Chandrasekhar mass for a relativistic white dwarf modeled as an $n = 3$ polytrope.
 
+<p align="center">
+  <img src="docs/lane_emden_solutions.png" alt="Lane-Emden solutions" width="49%">
+  <img src="docs/density_profiles.png" alt="Dimensionless density profiles" width="49%">
+</p>
+
+<sub><b>Left:</b> solutions $\theta(\xi)$ for polytropic indices
+$n = 0, 1, \tfrac{3}{2}, 3, 5$; the first zero $\xi_1$ marks the stellar
+surface, and for $n = 5$ the star is formally infinite in extent.
+<b>Right:</b> the corresponding dimensionless density profiles
+$\theta^{\,n}(\xi)$ — increasing $n$ concentrates the mass toward the
+centre.</sub>
+
 ---
 
 ## Features
